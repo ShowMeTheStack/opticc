@@ -1,0 +1,11 @@
+{
+  "_comment": "Single-host pool of virtual machines on an Intel Core i9-13900K: speed factors measured under full load relative to the client.",
+  "client": {"cores": 4, "speed": 1.0, "mem_bytes": 17179869184, "egress_bps": 50e9, "ingress_bps": 50e9, "price_per_hour": 0.0},
+  "nodes": [
+    {"name": "p58", "cores": 4, "mem_bytes": 8589934592,  "speed": 1.004, "rtt_s": 0.0002, "bw_up_bps": 50e9, "bw_down_bps": 50e9, "price_per_hour": 0.0},
+    {"name": "p55", "cores": 4, "mem_bytes": 8589934592,  "speed": 1.000, "rtt_s": 0.0002, "bw_up_bps": 50e9, "bw_down_bps": 50e9, "price_per_hour": 0.0},
+    {"name": "e8",  "cores": 8, "mem_bytes": 12884901888, "speed": 0.872, "rtt_s": 0.0002, "bw_up_bps": 50e9, "bw_down_bps": 50e9, "price_per_hour": 0.0},
+    {"name": "e4a", "cores": 4, "mem_bytes": 8589934592,  "speed": 0.930, "rtt_s": 0.0002, "bw_up_bps": 50e9, "bw_down_bps": 50e9, "price_per_hour": 0.0},
+    {"name": "e4b", "cores": 4, "mem_bytes": 8589934592,  "speed": 0.928, "rtt_s": 0.0002, "bw_up_bps": 50e9, "bw_down_bps": 50e9, "price_per_hour": 0.0}
+  ]
+}

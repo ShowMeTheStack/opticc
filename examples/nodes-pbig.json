@@ -1,0 +1,8 @@
+{
+  "client": {"cores": 4, "speed": 1.0, "mem_bytes": 12884901888, "egress_bps": 10e9, "ingress_bps": 10e9, "price_per_hour": 0.099},
+  "nodes": [
+    {"name": "w16c-a", "cores": 16, "mem_bytes": 34359738368, "speed": 1.0, "rtt_s": 0.001, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.438},
+    {"name": "w16c-b", "cores": 16, "mem_bytes": 34359738368, "speed": 1.0, "rtt_s": 0.001, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.438}
+  ],
+  "params": {"alpha": 1.0, "rho": 0.2, "zstd_level": 3, "hedge_kappa": 2.0, "window_scale": 1.0}
+}

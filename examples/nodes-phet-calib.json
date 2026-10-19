@@ -1,0 +1,14 @@
+{
+  "_comment": "Heterogeneous cloud pool with speed factors calibrated from 20 kernel translation units (three runs each) against a 4-vCPU client; round-trip time about 0.6 ms. Bandwidth is set per experiment; prices are hourly rates.",
+  "client": {"cores": 4, "speed": 1.0, "mem_bytes": 12884901888, "egress_bps": 10e9, "ingress_bps": 10e9, "price_per_hour": 0.099},
+  "nodes": [
+    {"name": "w1-2c",  "cores": 2,  "mem_bytes": 4294967296,  "speed": 1.029, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.033},
+    {"name": "w2-2c",  "cores": 2,  "mem_bytes": 4294967296,  "speed": 1.177, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.033},
+    {"name": "w3-4c",  "cores": 4,  "mem_bytes": 8589934592,  "speed": 1.006, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.066},
+    {"name": "w4-4c",  "cores": 4,  "mem_bytes": 8589934592,  "speed": 1.022, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.066},
+    {"name": "w5-8c",  "cores": 8,  "mem_bytes": 17179869184, "speed": 0.982, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.132},
+    {"name": "w6-8c",  "cores": 8,  "mem_bytes": 17179869184, "speed": 1.177, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.132},
+    {"name": "w7-12c", "cores": 12, "mem_bytes": 25769803776, "speed": 1.171, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.197},
+    {"name": "w8-16c", "cores": 16, "mem_bytes": 34359738368, "speed": 1.000, "rtt_s": 0.0006, "bw_up_bps": 10e9, "bw_down_bps": 10e9, "price_per_hour": 0.438}
+  ]
+}
